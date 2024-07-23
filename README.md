@@ -7,7 +7,7 @@
 ```rust,no_run
 #[macro_use] extern crate nickel;
 
-use nickel::{Nickel, HttpRouter};
+use nickel::{Nickel, HttpRouter,httpserver};
 
 fn main() {
     let mut server = Nickel::new();
